@@ -23,12 +23,12 @@ steps:
 
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'sonar-cloud'
-    organization: 'demo-devsecops'
+    SonarCloud: 'DAPC_AndersonAlexisRuales'
+    organization: 'dapcandersonalexisruales'
     scannerMode: 'CLI'
     configMode: 'manual'
-    cliProjectKey: 'laboratorio'
-    cliProjectName: 'ng-azure-devops'
+    cliProjectKey: 'dapc_andersonalexisruales'
+    cliProjectName: 'dapc_andersonalexisruales'
     cliSources: '.'
 
 - script: npx ng build --base-href /helloworld/
