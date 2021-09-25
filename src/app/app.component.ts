@@ -7,7 +7,7 @@ import { ConfigService } from './config.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-azure-devops';
+  title = 'AndersonAlexisRuales';
 
   constructor(configService: ConfigService) {
     console.log('config', configService.config);
