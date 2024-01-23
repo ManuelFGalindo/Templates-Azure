@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ng-azure-devops'`, () => {
+  it(`should have as title 'AndersonAlexisRuales'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('ng-azure-devops');
+    expect(app.title).toEqual('AndersonAlexisRuales');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('ng-azure-devops app is running AGILE CONSULTING!');
+    expect(compiled.querySelector('.content span').textContent).toContain('AndersonAlexisRuales app is running AGILE CONSULTING!');
   });
 });
